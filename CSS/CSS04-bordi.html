@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 04 - Bordi</title>
+    <style>
+        p{padding:5px;}
+        .uno{border-style: dotted;
+            border-width: 2px;}
+        .due{border-style: dashed;
+            border-width:medium;
+            color:blue;
+            border-left-color:red;}
+        .tre{border-style: solid;
+            border-width: 5px 10px 15px;
+            border-color: red yellow green;}
+        .quattro{border-style: double;}
+        .cinque{border-style: groove;}
+        .sei{border-style: ridge;}
+        .sette{border-style: inset;}
+        .otto{border-style: outset;}
+        .nove{border-style: none;}
+        .mix{border-style: dotted dashed solid double;}
+
+        /* MODALITA ABBREVIATA */
+        .corta {border: 1px solid red;
+            border-radius:15px 7px 3px 32px;}
+
+    </style>
+</head>
+<body>
+    <h1>Bordi</h1>
+    <p class="uno">Bordo punteggiato</p>
+    <p class="due">Bordo tratteggiato</p>
+    <p class="tre">Bordo solido</p>
+    <p class="quattro">Bordo doppio</p>
+    <p class="cinque">Bordo scanalato</p>
+    <p class="sei">Bordo increspato</p>
+    <p class="sette">Bordo incassato</p>
+    <p class="otto">Bordo outset</p>
+    <p class="nove">Nessun bordo</p>
+    <p class="mix">Bordi mix</p>
+    <p class="corta">Con proprietà abbreviata</p>
+    
+</body>
+</html>

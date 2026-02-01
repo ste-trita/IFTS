@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 17 - Tabelle</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border:1px solid #ccc;
+            padding:1rem;
+        }
+        th {
+            text-align: left;
+            background-color: green;
+            color:white;
+            font-size: 1.2rem;
+        }
+        caption {
+            caption-side: bottom;
+            font-weight: bold;
+            color:blue;
+            padding:1rem;
+        }
+        tr:nth-child(even){
+            background-color:springgreen;
+        }
+        .contenitore-tabella{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelle</h1>
+
+    <div class="contenitore-tabella">
+        <table>
+            <caption>Tabella 1 - Elenco corsi attivi</caption>
+            <thead>
+                <tr>
+                    <th>Corsi</th>
+                    <th>Codici</th>
+                    <th>Docenti</th>
+                    <th>Durata</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>XYDADFNRU4NNF44</td>
+                    <td>Stefano_Rapis</td>
+                    <td>20 ore</td>
+                    <td>in corso</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>XYDADFNRU4NNF55</td>
+                    <td>Stefano_Rapis</td>
+                    <td>10 ore</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sehounaparolamoltolungachemiallungalacella,devoagiresulcontenitorepadredellatabella</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>XY1245566FGNNF44</td>
+                    <td>Giovanni_Paolo</td>
+                    <td>16 ore</td>
+                    <td>inizia a maggio</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>XTTWVGDFNRNNF44</td>
+                    <td>Mario_Rossi</td>
+                    <td>18 ore</td>
+                    <td>inizia a giugno</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>0022300355AB6BC</td>
+                    <td>Guido_LaVespa</td>
+                    <td>24 ore</td>
+                    <td>inizia a settembre</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>SDFJGGGHB000004</td>
+                    <td>Carmelo_Giudici</td>
+                    <td>24 ore</td>
+                    <td>inizia a novembre</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

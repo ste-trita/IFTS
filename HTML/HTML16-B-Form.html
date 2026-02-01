@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LEZIONE 16bis</title>
+    
+    <meta charset=”UTF-8”>
+    <meta name=”Keywords” content=”Form HTML bis”>
+    <meta name=”description” content=”Form HTML i campi più utilizzati nei moduli”>
+    <meta name=”author” content=”Stefano Rapis”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+
+    <style>
+
+      form {
+         display: flex;
+         flex-wrap: wrap;
+      }
+
+       .primo{
+         width:25%;
+
+       }
+       .secondo{
+         width:70%;
+       }
+    </style>
+
+</head>
+
+<body>
+    
+<form>
+<fieldset class="primo">
+   <legend>Dati personali</legend>
+<label for="nome">Nome:</label><br>
+<input type="text" id="nome" name="nome"><br>
+<label for="cognome">Cognome:</label><br>
+<input type="text" id="cognome" name="cognome">
+</fieldset>
+
+<fieldset class="secondo">
+   <legend>Seleziona</legend>
+   <label for="animals">Il tuo animale preferito</label>
+   <select name="animals" id="animals">
+   <optgroup label="Mammiferi">
+      <option value="cane">Cane</option>
+      <option value="gatto">Gatto</option>
+      <option value="criceto">Criceto</option>
+      <option value="coniglio" selected>Coniglio</option>
+   </optgroup>
+   <optgroup label="Uccelli">
+      <option value="canarino">Canarino</option>
+      <option value="gallina">Gallina</option>
+      <option value="anatra">Anatra</option>
+   </optgroup>
+   <optgroup label="Rettili">
+      <option value="tartaruga">Tartaruga</option>
+      <option value="iguana">Iguana</option>
+      <option value="serpente">Serpente</option>
+   </optgroup>
+   </select><br>
+   <label for="msg">Per quale motivo?</label><br>
+   <textarea id="msg" name="message" rows="10" cols="50"></textarea><br>
+   <input type="checkbox" id="termini" name="termini" required>
+   <label for="termini">Accetto i termini</label><br><br>
+   <input type="submit" value="invia">
+
+</fieldset>
+
+
+
+</form>
+
+
+</form> 
+
+</body>
+
+</html>

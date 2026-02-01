@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 03 - Sfondi</title>
+    <style>
+        body{
+            background-image:url("carta.webp");
+            /* background-repeat:no-repeat; */
+            /* background-repeat:repeat-y; */
+            /* background-position:center top; */
+            /* background-attachment: fixed; */
+            /* background: url("carta.webp") no-repeat center top; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Sfondi</h1>
+    <h2>Trasparenza dei div</h2>
+    <p>Risultato ottenuto attraverso la proprietà opacity</p>
+    <div style="background-color:green; opacity:0.1;">
+        <h3>10% opacity</h3>
+    </div>  
+    <div style="background-color:green; opacity:0.3;">
+        <h3>30% opacity</h3>
+    </div>  
+    <div style="background-color:green; opacity:0.6;">
+        <h3>60% opacity</h3>
+    </div>  
+    <div style="background-color:green; opacity:1.0;">
+        <h3>100% opacity</h3>
+    </div>  
+
+     <p>Risultato ottenuto attraverso valori rgba</p>
+    <div style="background-color:rgba(0, 128,0,0.1)">
+        <h3>10% opacity</h3>
+    </div>  
+    <div style="background-color:rgba(0, 128,0,0.3)">
+        <h3>30% opacity</h3>
+    </div>  
+    <div style="background-color:rgba(0, 128,0,0.6)">
+        <h3>60% opacity</h3>
+    </div>  
+    <div style="background-color:rgba(0, 128,0,1.0)">
+        <h3>100% opacity</h3>
+    </div> 
+
+</body>
+</html>

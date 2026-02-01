@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html {
+    padding:32px;
+    margin-bottom:80px;
+}
+
+h1 {
+    background-color:green;
+    color:white;
+    /*display: inline;*/
+    padding: 15px;
+    border-radius:10px;
+    text-align: center;
+}
+
+ul {
+    border-bottom:1px solid #f2f2f2;
+    padding-bottom:10px;
+    list-style-type:square;
+}
+
+li {
+    padding:2px;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 20 - Z-INDEX</title>
+    <style>
+        .container {
+            position: relative;
+        }
+        .red-box{
+            /* position: relative; */
+            background: red;
+            color:white;
+            height: 100px;
+            margin: 30px;
+            z-index: 3;
+        }
+        .green-box {
+            position: absolute;
+            background: lightgreen;
+            width: 35%;
+            height: 100px;
+            left:270px;
+            top:-15px;
+            z-index: 2;
+        }
+        .blue-box {
+            position:absolute;
+            background: lightblue;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 50px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Z-INDEX</h1>
+    <div class="container">
+<div class="red-box">Rosso</div>
+<div class="blue-box">Blu</div>
+<div class="green-box">Verde</div>
+</div>
+
+</body>
+</html>

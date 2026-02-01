@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - TEST</title>
+    <link rel="stylesheet" type="text/css" href="stile-test.css">
+    <style>
+     .correct {
+        background-color:lightgreen;font-weight: 600;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS - TEST</h1>
+    <ol>
+            <li id="domanda-01"> 
+            <h2>Quali sono i tre livelli del CSS?</h2>
+                <ul>
+                    <li class="correct">inline, internal, external</li>
+                    <li>private, public, external</li>
+                    <li>Insiede, outside, external</li>
+                </ul>
+            </li>
+
+            <li id="domanda-02"> 
+            <h2>Se il collegamento con il foglio di stile esterno è posto dopo quello interno nella sezione &lt;head&gt; il foglio esterno sovrascriverà quello interno </h2>
+                <ul>
+                    <li>Falso</li>
+                    <li class="correct">Vero</li>
+                </ul>
+            </li>
+
+            <li id="domanda-03"> 
+            <h2>Ordinare il livello di proprità del CSS, dal più basso (1) al più alto (4)</h2>
+                <ul>
+                    <li>Inline, external, internal, browser default</li>
+                    <li>Browser defaulit, external, inline, internal</li>
+                    <li class="correct">Browser default, external, internal, inline</li>
+                </ul>
+            </li>
+
+            <li id="domanda-04"> 
+            <h2>Quale elemento HTML è utilizzato per definire un foglio di stile interno?</h2>
+                <ul>
+                    <li class="correct">&lt;style&gt;</li>
+                    <li>&lt;css&gt;</li>
+                    <li>&lt;layout&gt;</li>
+                    <li>&lt;stylesheet&gt;</li>
+                </ul>
+            </li>
+
+            <li id="domanda-05"> 
+            <h2>Quale dei seguenti colori non è un css color?</h2>
+                <ul>
+                    <li>name,tipo "red"</li>
+                    <li>RGB, come "rgb(255,0,0)"</li>
+                    <li>Hex, come "#ff0000" </li>
+                    <li class="correct">numero, come "248"</li>
+                </ul>
+            </li>
+
+            <li id="domanda-06"> 
+            <h2>Quale valore della proprietà background-position posiziona l'immagine di sfondo in alto a destra (TOP-RIGHT)?</h2>
+                <ul>
+                    <li>0% 0%</li>
+                    <li>0% 100%</li>
+                    <li>100% 100%</li>
+                    <li class="correct">100% 0%</li>
+                </ul>
+            </li>
+
+            <li id="domanda-07"> 
+            <h2>In CSS quale proprietà specifica il colore del testo?</h2>
+                <ul>
+                    <li>text</li>
+                    <li class="correct">color</li>
+                    <li>text-color</li>
+                    <li>font-color</li>
+                </ul>
+            </li>
+
+            <li id="domanda-08"> 
+            <h2>Qual'è il valore di default della proprietà color?</h2>
+                <ul>
+                    <li>Trasparente</li>
+                    <li class="correct">Non ha un colore di default, dipende dal browser</li>
+                    <li>Il valore di default è sempre un colore ad alto contrasto rispetto allo sfondo</li>
+                    <li>Di default è sempre nero</li>
+                </ul>
+            </li>
+
+            <li id="domanda-09"> 
+            <h2>Qual'è il modo corretto per impostare i bordi con la proprietà border-width: bordo alto 1px, bordo basso 10px, bordo sinistro 5px e bordo destro 20px </h2>
+                <ul>
+                    <li>border-width:5px 20px 1px 10px</li>
+                    <li>border-width:5px 1px 20px 10px</li>
+                    <li>border-width:1px 10px 5px 20px</li>
+                    <li class="correct">border-width:1px 20px 10px 5px</li>
+                </ul>
+            </li>
+
+            <li id="domanda-10"> 
+            <h2>Border controlla le proprietà allo spessore, allo stile e al colore</h2>
+                <ul>
+                    <li>Falso</li>
+                    <li class="correct">Vero</li>
+                </ul>
+            </li>
+
+              <li id="domanda-11"> 
+            <h2>Le proprietà del bordo non hanno effetto se non è impostato un border-style</h2>
+                <ul>
+                    <li class="correct">Vero</li>
+                    <li>Falso</li>
+                </ul>
+            </li>
+
+              <li id="domanda-12"> 
+            <h2>Bordi, padding e margini vengono ereditati dall'elemento figlio?</h2>
+                <ul>
+                    <li>Si</li>
+                    <li class="correct">No</li>
+                    <li>Solo se i bordi sono impostati come inherited</li>
+                </ul>
+            </li>
+
+              <li id="domanda-13"> 
+            <h2>Il margine espresso in percentuale rispetto a cosa è calcolato?</h2>
+                <ul>
+                    <li>Alla larghezza dell'elemento</li>
+                    <li>Alla larghezza della finestra del browser</li>
+                    <li class="correct">Alla larghezza del container genitore</li>
+                </ul>
+            </li>
+
+              <li id="domanda-14"> 
+            <h2>Nel CSS sono consentiti i valori negativi per margini e padding</h2>
+                <ul>
+                    <li>Si</li>
+                    <li>No</li>
+                    <li class="correct">solo per i margini</li>
+                    <li>solo per il padding</li>
+                </ul>
+            </li>
+
+              <li id="domanda-15"> 
+            <h2>La larghezza totale di un elemento è definito come</h2>
+                <ul>
+                    <li>larghezza + padding sinistro + padding destro</li>
+                    <li class="correct">larghezza + padding sx/dx + + margine sx/dx + bordo sx/dx</li>
+                    <li>Il valore della proprietà larghezza</li>
+                </ul>
+            </li>
+
+              <li id="domanda-16"> 
+            <h2>Qual'è l'ordine corretto del box-model CSS?</h2>
+                <ul>
+                    <li class="correct">Content - Padding - Border - Margin</li>
+                    <li>Content - Margin - Border - Padding</li>
+                    <li>Content - Margin - Padding - Border</li>
+                </ul>
+            </li>
+
+              <li id="domanda-17"> 
+            <h2>Quale di queste non è una proprietà abbreviata del CSS</h2>
+                <ul>
+                    <li>background</li>
+                    <li>border</li>
+                    <li class="correct">text</li>
+                    <li>margin</li>
+                </ul>
+            </li>
+
+              <li id="domanda-18"> 
+            <h2>Qual'è il codice corretto per impostare l'immagine di sfondo?</h2>
+                <ul>
+                    <li>background-image:demo.gif</li>
+                    <li>background-image:(url:demo.gif)</li>
+                    <li>background-image:"demo.gif"</li>
+                    <li class="correct">background-image:url('demo.gif')</li>
+                </ul>
+            </li>
+
+              <li id="domanda-19"> 
+            <h2>Quando volte viene ripetuta l'immagine di sfondo con la regola: body {background:#00ff00 url{smiley.gif) 50% 50%</h2>
+                <ul>
+                    <li>Ripetuta metà orizzontalemente e verticalmente</li>
+                    <li class="correct">Ripetuta su tutta la pagina</li>
+                    <li>Solo una volta nel centro della pagina</li>
+                </ul>
+            </li>
+
+              <li id="domanda-20"> 
+            <h2>Qunado si usa la proprietà abbreviata background tutti i valori devono essere presenti nell'ordine corretto</h2>
+                <ul>
+                    <li>Vero</li>
+                    <li class="correct">Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-21"> 
+            <h2>La proprietà background-repeat può avere i valori repeat x e repeat y cosa indicano x e y?</h2>
+                <ul>
+                    <li>Che l'immagine venga ripetuta x e y volte</li>
+                    <li class="correct">Che l'immagine di sfondo venga ripetuta orizzontalmente o verticalmente</li>
+                    <li>Che x è vero e y è falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-22"> 
+            <h2>Il valore della proprietà font-family può contenere una sola famiglia di caratteri</h2>
+                <ul>
+                    <li>Vero</li>
+                    <li class="correct">Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-23"> 
+            <h2>Nel CSS esistono 3 famiglie principali di font: Serif, Sans-Serif e..</h2>
+                <ul>
+                    <li>Roman</li>
+                    <li>Arial</li>
+                    <li>Italic</li>
+                    <li class="correct">Monospace</li>
+                </ul>
+            </li>
+
+            <li id="domanda-24"> 
+            <h2>Il font ARIAL appartiene a quale famiglia?</h2>
+                <ul>
+                    <li class="correct">Sans-Serif</li>
+                    <li>Serif</li>
+                    <li>Monospace</li>
+                </ul>
+            </li>
+
+            <li id="domanda-25"> 
+            <h2>Quali delle seguenti affermazioni non è vera</h2>
+                <ul>
+                    <li>Il font serif hanno piccole linee alle estremità</li>
+                    <li class="correct">Il font Sans-serif sono mostrati sempre in corsivo</li>
+                    <li>Tutti i caratteri monospace hanno la stessa larghezza</li>
+                </ul>
+            </li>
+
+            <li id="domanda-26"> 
+            <h2>Text-indent serve per</h2>
+                <ul>
+                    <li class="correct">Rientrare la prima riga del testo</li>
+                    <li>rientrare l'intero testo</li>
+                    <li>Specificare la distanza fra le parole</li>
+                </ul>
+            </li>
+
+            <li id="domanda-27"> 
+            <h2>La capitalizzazione del testo si controlla con quale proprietà</h2>
+                <ul>
+                    <li>Capitalization property</li>
+                    <li class="correct">text-transform property</li>
+                    <li>font-style property</li>
+                    <li>case property</li>
+                </ul>
+            </li>
+
+            <li id="domanda-28"> 
+            <h2>text-align: justify serve per:</h2>
+                <ul>
+                    <li>centrare il testo</li>
+                    <li>Non esiste il valore justify</li>
+                    <li class="correct">giustifare il testo come nei giornali</li>
+                </ul>
+            </li>
+
+            <li id="domanda-29"> 
+            <h2>Cosa succede se il valore di line-height è inferiore della grandezza del font</h2>
+                <ul>
+                    <li class="correct">Le righe si sovrappongono</li>
+                    <li>line-height non può essere inferiore</li>
+                    <li>le righe vengono tagliate</li>
+                </ul>
+            </li>
+
+            <li id="domanda-30"> 
+            <h2>Cosa fa la regola white-space impostata su nowrap </h2>
+                <ul>
+                    <li>mantiene gli spazi e impedisce di andare a capo</li>
+                    <li>collassa gli spazi e manda a capo quando serve</li>
+                    <li>mantiene gli spazi e va a capo normalmente</li>
+                    <li class="correct">mantiene gli spazi e va capo solo se incontra il tag br </li>
+                </ul>
+            </li>
+
+            <li id="domanda-31"> 
+            <h2>è possibile specificare la distanza fra lettere e parole righe di testo </h2>
+                <ul>
+                    <li class="correct">Vero</li>
+                    <li>Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-32"> 
+            <h2>Quali proprietà influenzano la distanza fra le parole?</h2>
+                <ul>
+                    <li>solo word-spacing e letter-spacing</li>
+                    <li>solo word-spacing</li>
+                    <li class="correct">font-size, word-spacing, letter-specing e text-aling</li>
+                </ul>
+            </li>
+
+            <li id="domanda-33"> 
+            <h2>Quale proprietà mostra un'unico bordo per th e td</h2>
+                <ul>
+                    <li>table-border</li>
+                    <li>border-single</li>
+                    <li class="correct">border-collapse</li>
+                </ul>
+            </li>
+
+            <li id="domanda-34"> 
+            <h2>Quale proprietà stabilisce se mostrare i bordi e lo sfondo per le celle vuote per la tabella</h2>
+                <ul>
+                    <li class="correct">empty-cell</li>
+                    <li>empty</li>
+                    <li>table</li>
+                    <li>table-cell</li>
+                </ul>
+            </li>
+
+            <li id="domanda-35"> 
+            <h2>Quali sono i possibili valori della proprietà position</h2>
+                <ul>
+                    <li>relative, standard, stard and end</li>
+                    <li class="correct">static, absolute, relative, sticky e fixed</li>
+                    <li>standard, beginning, end, and middle</li>
+                    <li>middle, standard, absolute and end</li>
+                </ul>
+            </li>
+
+            <li id="domanda-36"> 
+            <h2>Un elemento con posizione fixed, top 0% e left 0% è posizionato rispetto..</h2>
+                <ul>
+                    <li>al documento (html)</li>
+                    <li>alla normale posizione</li>
+                    <li class="correct">alla finestra del browser</li>
+                </ul>
+            </li>
+
+            <li id="domanda-37"> 
+            <h2>L'elemento con position static può essere posizionato usando bottom left right top </h2>
+                <ul>
+                    <li>Vero</li>
+                    <li class="correct">Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-38"> 
+            <h2>L'elemento con position absolute (non annidato) e con position absolute (top 0 e left 0) è posizionato rispetto </h2>
+                <ul>
+                    <li>alla posizione normale</li>
+                    <li>alla finestra del browser</li>
+                    <li class="correct">al documento html</li>
+                </ul>
+            </li>
+
+            <li id="domanda-39"> 
+            <h2>Quale codice CSS si usa per centrare orizzontalmente un elemento</h2>
+                <ul>
+                    <li>position:center;</li>
+                    <li class="correct">margin-left:auto, margin-right:auto;</li>
+                    <li>align:center;</li>
+                    <li>align-left:auto,align-right:auto;</li>
+                </ul>
+            </li>
+
+            <li id="domanda-40"> 
+            <h2>Nel codice img {position:absolute;clip:rect(0px,60px,200px,0px)} qual'è l'ordine dei valori della proprietà clip?</h2>
+                <ul>
+                    <li>left top right bottom</li>
+                    <li>bottom left top right</li>
+                    <li class="correct">top right bottom left</li>
+                    <li>bottom top left right</li>
+                </ul>
+            </li>
+
+            <li id="domanda-41"> 
+            <h2>Qual'è il valore predefinito della proprietà position</h2>
+                <ul>
+                    <li class="correct">static</li>
+                    <li>relative</li>
+                    <li>fixed</li>
+                    <li>absolute</li>
+                </ul>
+            </li>
+
+            <li id="domanda-42"> 
+            <h2>l'elemento position: relative; top:0;left:0; è posizionato rispetto a</h2>
+                <ul>
+                    <li>il documento HTML</li>
+                    <li>La finestra del browser</li>
+                    <li class="correct">la sua posizione normale</li>
+                </ul>
+            </li>
+
+            <li id="domanda-43"> 
+            <h2>Qual'è il colore di sfondo dell'area di margine</h2>
+                <ul>
+                    <li>La stessa dell'elemento con il margine</li>
+                    <li class="correct">Lo stesso del suo elemento padre</li>
+                </ul>
+            </li>
+
+            <li id="domanda-44"> 
+            <h2>un elemento con z-index più alto viene mostrato sopra un elemento con z-index più basso </h2>
+                <ul>
+                    <li class="correct">Vero</li>
+                    <li>Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-45"> 
+            <h2>Cosa seleziona il selettore div p</h2>
+                <ul>
+                    <li>tutti i div con almeno un paragrafo dentro</li>
+                    <li class="correct">tutti i paragrafi discendenti di un div</li>
+                    <li>tutti i div figli di paragrafo</li>
+                </ul>
+            </li>
+
+            <li id="domanda-46"> 
+            <h2>Nel codice p.intro{color:red;} qual'è il selettore</h2>
+                <ul>
+                    <li>color</li>
+                    <li class="correct">p.intro</li>
+                    <li>red</li>
+                </ul>
+            </li>
+
+            <li id="domanda-47"> 
+            <h2>Qual'è il modo corretto di includere p e h2 nello stesso selettore</h2>
+                <ul>
+                    <li>p.h2</li>
+                    <li>p h2</li>
+                    <li class="correct">p, h2</li>
+                    <li>p & h2</li>
+                </ul>
+            </li>
+
+            <li id="domanda-48"> 
+            <h2>la pseudo classe :frist-child selezionano l'elemento che sono il primo figlio di un'altro elemento</h2>
+                <ul>
+                    <li class="correct">Vero</li>
+                    <li>Falso</li>
+                </ul>
+            </li>
+
+            <li id="domanda-49"> 
+            <h2>Quale selettore seleziona tutti gli elementi di tutta la pagina</h2>
+                <ul>
+                    <li>%</li>
+                    <li>&</li>
+                    <li>$</li>
+                    <li class="correct">*</li>
+                </ul>
+            </li>
+
+            <li id="domanda-50"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-51"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-52"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-53"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-54"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-55"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-56"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-57"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-58"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-59"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+        <li id="domanda-60"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-61"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-62"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-63"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-64"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-65"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-66"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-67"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-68"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-69"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+
+            <li id="domanda-70"> 
+            <h2></h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+        
+        </ol>
+</body>
+</html>

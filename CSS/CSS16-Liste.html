@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 16 - Liste</title>
+    <style>
+        body{
+            font-size:30px;
+        }
+        .title{
+            text-align:center;
+            background-color:lightcoral;
+            color:white;
+        }
+        ul{
+            font-size:40px;
+            list-style: square url('mela.png')
+        
+        }
+        ol{
+            list-style-type: upper-alpha;
+            /* list-style-position: inside; */
+            background-color:lightcoral;
+        }
+        ol li {
+            background-color:#f2f2f2;
+            margin:5px 0;
+            padding:5px 5px 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Liste personalizzate</h1>
+
+    <h2 class="title">TORTA DI MELE</h2>
+    <h2>Ingredienti</h2>
+    <ul>
+        <li>Farina 00 - 250g</li>
+        <li>Zucchero - 150g</li>
+        <li>Burro - 100g</li>
+        <li>Uova - 2</li>
+        <li>Mele - 3</li>
+        <li>Lievito per dolci - 1 bustina</li>
+        <li>Latte - 100ml</li>
+    </ul>
+    <h2>Procedimento</h2>
+    <ol>
+        <li>Mescolare uova e zucchero fino a ottenere un composto spumoso</li>
+        <li>Aggiungere burro fuso, farina e lievito, amalgamando bene</li>
+        <li>Unire le mele a pezzi, versare il composto in una teglia e cuocere a 180° per 40 minuti</li>
+    </ol>
+</body>
+</html>

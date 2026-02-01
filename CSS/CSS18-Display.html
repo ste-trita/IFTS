@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 18 - Display</title>
+   <style>
+    p {background-color:blue;}
+    span {background-color:red; color:white;}
+    .box{
+        width: 120px;
+        height: 100px;
+        background-color:yellow;
+        display: inline-block;
+        text-align:center;
+        line-height: 100px;
+        font-weight: bold;
+
+    }
+   </style>
+    
+</head>
+<body>
+    <h1>Display & Layout</h1>
+
+    <h4>Paragrafo per prova display: inline</h4>
+    <p style="display: inline; height:40px;">
+        <!-- il valore height non viene considerato perché è inline -->
+        <span>Mario</span>
+        <span>Rossi</span>
+        <span>Imprenditore</span>
+    </p>
+
+     <h4>Paragrafo per prova display: inline-block</h4>
+    <p style="display: inline-block; height:40px;">
+        <span>Mario</span>
+        <span>Rossi</span>
+        <span>Imprenditore</span>
+    </p>
+
+     <h4>Paragrafo per prova display: flex</h4>
+    <p style="display: flex;">
+        <span>Mario</span>
+        <span>Rossi</span>
+        <span>Imprenditore</span>
+    </p>
+     <h4>Paragrafo per prova display: grid</h4>
+    <p style="display: grid">
+        <span>Mario</span>
+        <span>Rossi</span>
+        <span>Imprenditore</span>
+    </p>
+    <div class="box">primo box</div>
+    <div class="box" style="display: none;"">secondo box</div>
+    <div class="box" style="visibility: hidden;">terzo box</div>
+    <div class="box">quarto box</div>
+
+</body>
+</html>
