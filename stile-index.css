@@ -34,6 +34,11 @@ details {
     border:3px solid #264DE4;
 }
 
+footer {
+    width:100%;
+    text-align:center;
+}
+
 summary{
     padding:15px;
 }
@@ -52,11 +57,7 @@ div{
     margin-bottom:40px;
 }
 
-/* ID */
 
-#footer {
-    width:100%;
-}
 
 /* CLASSI */
 
