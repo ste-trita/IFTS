@@ -52,6 +52,12 @@ div{
     margin-bottom:40px;
 }
 
+/* ID */
+
+#footer {
+    width:100%;
+}
+
 /* CLASSI */
 
 .container {
